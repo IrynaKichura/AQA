@@ -22,3 +22,9 @@ Max of 5 lines can be added to one branch
 18. Clone copies repo
 19. Pull gets updates
 20. Push shares changes
+6. Repository stores code
+7. Commits save snapshots
+8. Branches create experiments
+9. Merge combines work
+10. Conflicts need resolve
+
