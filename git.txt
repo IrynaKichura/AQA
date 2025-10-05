@@ -1,0 +1,12 @@
+//TODO: Add up to 30 line to task.txt. 
+
+IMPORTANT: All additions must be done by pulling branches into master one at a time and resolving merge conflicts. 
+
+Create 5 branches -> commit a section to each -> switch to master -> pull from this branches and resolve merge conflicts 
+
+Max of 5 lines can be added to one branch
+
+2. Tracks file changes
+3. Manages project history
+4. Developers use daily
+5. Distributed version control
