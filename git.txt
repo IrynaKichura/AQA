@@ -10,3 +10,15 @@ Max of 5 lines can be added to one branch
 3. Manages project history
 4. Developers use daily
 5. Distributed version control
+
+21. Fetch downloads commits
+22. Rebase rewrites history
+23. Tag marks versions
+24. Log shows commits
+25. Status shows state
+
+26. Diff shows changes
+27. Init starts repo
+28. Add stages files
+29. Rm removes files
+30. Mv renames files
