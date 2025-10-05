@@ -10,3 +10,10 @@ Max of 5 lines can be added to one branch
 3. Manages project history
 4. Developers use daily
 5. Distributed version control
+
+6. Repository stores code
+7. Commits save snapshots
+8. Branches create experiments
+9. Merge combines work
+10. Conflicts need resolve
+
