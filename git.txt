@@ -10,3 +10,15 @@ Max of 5 lines can be added to one branch
 3. Manages project history
 4. Developers use daily
 5. Distributed version control
+
+11. Staging area buffer
+12. Index before commit
+13. Reset moves head
+14. Hard reset dangerous
+15. Soft reset safe
+
+16. Mixed reset default
+17. Checkout switches branch
+18. Clone copies repo
+19. Pull gets updates
+20. Push shares changes
