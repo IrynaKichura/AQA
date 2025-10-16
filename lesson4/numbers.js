@@ -15,6 +15,7 @@ let lastName = 'Kichura';
 let fullName = name + ' ' + lastName;
 greeting=`Hello, I am ${name} and my last name is ${lastName}. I am ${number} years old.`;
 let letVariable = 'hello';
+
 if(true){
 let letVariable = 'hello1';
 var varVariable;
@@ -33,3 +34,6 @@ console.log(fullName);
 console.log(text.slice (4, 10)); // accepts negative values
 //console.log(text.toUpperCase());
 console.log(text.substring (4, 10)); //do not accept negative values
+let a = '5' 
+let b = 10
+console.log(a + b);
