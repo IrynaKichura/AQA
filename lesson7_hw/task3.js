@@ -8,13 +8,13 @@ function divide(numerator, denominator) {
 
 try {
   divide(10, 0);
-} catch {
-  console.log('Denominator cannot be zero');
+} catch(error) {
+  console.log(error);
 }
 try {
   divide(10, '0');
-} catch {
-  console.log('Both numerator and denominator must be numbers');
+} catch (error){
+  console.log(error);
 }
 try {
   console.log(divide(6780, 90));
