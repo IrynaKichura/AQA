@@ -47,6 +47,9 @@
     // const array5 = [ ['apple', 'banana', [1,2,7]], [3,4,],['cherry', 'banana'] ]
     // console.log(array5[0][2][0]);
 
-     const array = [ 1, 0, -7,2,7, 8,4,];
-        const filteredArray = array.filter((number) => number > 0);
-        console.log(filteredArray.sort());
+     const array = [ 1, 0, '-7',2,7, 8,4,];
+     const array2 = [ 1, 0, -7,2,50, 67];
+        // const filteredArray = array.filter((number) => number > 0);
+        // console.log(filteredArray.sort());
+        const mergedArray = new Set([...array, ...array2]);
+        console.log(mergedArray);   
