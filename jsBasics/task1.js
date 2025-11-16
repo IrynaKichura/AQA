@@ -1,12 +1,12 @@
 let myString;
-let myNumber;; 
-let isTrue; 
+let myNumber;
+let isTrue;
 let myNull;
-let myVar; 
+let myVar;
 
 myString = 'Iryna';
-myNumber = 5; 
-isTrue = true; 
+myNumber = 5;
+isTrue = true;
 myNull = null;
 myVar = undefined;
 
@@ -14,4 +14,4 @@ console.log(myString);
 console.log(myNumber);
 console.log(isTrue);
 console.log(myNull);
-console.log(myVar); 
+console.log(myVar);

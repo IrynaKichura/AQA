@@ -28,7 +28,7 @@
 // const obj={
 // sayHi: function(){
 //     return 'Hi'
-// }, 
+// },
 // sayBye(){
 //     return 'Bye'
 // }
@@ -43,30 +43,30 @@
 // //console.log(one, two, three);
 // const [one, two, three, ...rest] = array
 // console.log(rest[0]);
-// //деструктуризація обєкту 
+// //деструктуризація обєкту
 
 // let obj = {name: "Ira", number: 1}
 // const {name, number} = obj
 // console.log(name, number)
 
-const obj={
-    name:"Iryna",
-sayHi: function(){
-    return 'Hi'
-}, 
-sayBye(){
-    return 'Bye'
-}
-}
+const obj = {
+    name: 'Iryna',
+    sayHi: function () {
+        return 'Hi';
+    },
+    sayBye() {
+        return 'Bye';
+    },
+};
 //const person = Object.values(obj)
 //console.log(person)
 
-obj2={
-    name2:"Ivan"
-}
+obj2 = {
+    name2: 'Ivan',
+};
 //bind 2 objects
-obj3 = {...obj, ...obj2}
-console.log(obj3)
+obj3 = { ...obj, ...obj2 };
+console.log(obj3);
 
-delete obj3.name
-console.log(obj3)
+delete obj3.name;
+console.log(obj3);

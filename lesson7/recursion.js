@@ -1,10 +1,11 @@
 //recursion - when a function calls itself
 function factorial(num) {
-    if (num <=1) {//this is added to stop recursion otherwise it will use negative numbers and go forever
+    if (num <= 1) {
+        //this is added to stop recursion otherwise it will use negative numbers and go forever
         return true;
-    }   
-return num * factorial(num - 1);
-}   
+    }
+    return num * factorial(num - 1);
+}
 
 console.log(factorial(5)); // 5*4*3*2*1=120
 

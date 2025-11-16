@@ -3,13 +3,13 @@ function isAdult(age) {
         return true;
     } else if (age < 18) {
         return false;
-    }  else {
+    } else {
         return 'Age not defined';
-    } 
+    }
 }
-let result = isAdult(25)
+let result = isAdult(25);
 console.log(`Age1 is adult: ${result}`);
-result = isAdult(15)
+result = isAdult(15);
 console.log(`Age2 is adult: ${result}`);
-result = isAdult('test')
+result = isAdult('test');
 console.log(result);

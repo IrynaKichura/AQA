@@ -5,15 +5,15 @@ let age = 10;
 //     console.log(age);
 // }
 
-for(let i=1; i<3; i++){
-    console.log("Start i");
-    for(let y=1; y<3; y++){
-        console.log("Start y");
-    console.log(`i = ${i}, y = ${y}`);
-    console.log("End y");
+for (let i = 1; i < 3; i++) {
+    console.log('Start i');
+    for (let y = 1; y < 3; y++) {
+        console.log('Start y');
+        console.log(`i = ${i}, y = ${y}`);
+        console.log('End y');
+    }
 }
-}
-console.log("End i");
+console.log('End i');
 
 // for(let i=1; i<18; i++){
 //     if(i===3 || i===5){
@@ -27,5 +27,5 @@ console.log("End i");
 // do {
 //     age++
 //     console.log(age);
-   
+
 // } while (age < 18);

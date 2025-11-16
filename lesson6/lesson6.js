@@ -1,5 +1,4 @@
-
-console.log("Lesson 6");
+console.log('Lesson 6');
 
 // function sumNumbers(num1, num2) {
 //  return num1 + num2;
@@ -12,10 +11,10 @@ console.log("Lesson 6");
 // console.log(randomNumber(7));
 // console.log(randomNumber(undefined));
 
-function sumNumbers2(num1, num2,... numbers) {
- //return num1 + num2;
- console.log(numbers);
- return num1 + num2 ;
+function sumNumbers2(num1, num2, ...numbers) {
+    //return num1 + num2;
+    console.log(numbers);
+    return num1 + num2;
 }
 sumNumbers2(3, 4, 5, 6, 7, 8);
 console.log(sumNumbers2(3, 4, 5, 6, 7, 8));

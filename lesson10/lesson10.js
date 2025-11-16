@@ -1,10 +1,10 @@
 class Element {
-    constructor(){
-       this.locator = locator 
+    constructor() {
+        this.locator = locator;
     }
-    getLocator(){
+    getLocator() {
         return this.locator;
     }
 }
-const element = new Element('my element')
-console.log(element.getLocator())
+const element = new Element('my element');
+console.log(element.getLocator());

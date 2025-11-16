@@ -1,9 +1,9 @@
-var number = 5 
-var number = true 
-var number = undefined 
-var number = null
+var number = 5;
+var number = true;
+var number = undefined;
+var number = null;
 
-const variable =5 !==5
+const variable = 5 !== 5;
 console.log(variable);
 
 // console.log(5 + 3); // addition

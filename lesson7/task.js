@@ -1,4 +1,4 @@
-function log(any) {   
+function log(any) {
     console.log(any);
 }
 //callbacks
@@ -25,11 +25,10 @@ testRunner('API', testPassedCB, testFailedCB);
 // name: 'Slava',
 // greet: function() {
 //         return () => {
-//     return (`Hello, ${this.name}!`); 
-//     }       
+//     return (`Hello, ${this.name}!`);
+//     }
 //  }
-// } 
- 
+// }
 
 // log(obj1.greet()());//Hi Slava because arrow function takes 'this' from its parent function
 // this.name = 'Iryna';
@@ -39,27 +38,27 @@ testRunner('API', testPassedCB, testFailedCB);
 //     //const secondName = this.name;
 //     return ()=>{
 //         return () => {
-//     return (`Hello, ${this.name}!`); 
-//     }       
+//     return (`Hello, ${this.name}!`);
+//     }
 //   }
-//  } 
-// }  
+//  }
+// }
 // //log(obj1.greet()()());
 // //log(this.name);
 // log(obj1.greet()()());//Hi Slava because arrow function takes 'this' from its parent function
 
 this.name = 'Iryna';
- const obj1 = {
- name: 'Slava',
-greet: function() {
-    //const secondName = this.name;
-    return function hello(){
-        return () => {
-    return (`Hello, ${this.name}!`); 
-    }       
-  }
- } 
-}  
+const obj1 = {
+    name: 'Slava',
+    greet: function () {
+        //const secondName = this.name;
+        return function hello() {
+            return () => {
+                return `Hello, ${this.name}!`;
+            };
+        };
+    },
+};
 //log(obj1.greet()()());
 //log(this.name);
-log(obj1.greet()()());//Hi Undefined because regular function has its own 'this' and it is not taken from parent, if uncomment secondName and pass it instead of this.name it will be Hi Slava
+log(obj1.greet()()()); //Hi Undefined because regular function has its own 'this' and it is not taken from parent, if uncomment secondName and pass it instead of this.name it will be Hi Slava
