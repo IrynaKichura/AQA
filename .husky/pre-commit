@@ -1,2 +1,2 @@
-npm run prettier:all
+#npm run prettier:all
 #npm run eslint:all

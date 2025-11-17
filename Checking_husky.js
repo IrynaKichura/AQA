@@ -1,1 +1,1 @@
-let myVariable = 12
+let myVariable = 12;

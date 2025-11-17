@@ -32,9 +32,10 @@ describe('api test', () => {
             body: 'bar',
             userId: 1,
         };
-        const response = 
-            await axios.post('https://jsonplaceholder.typicode.com/posts',
-        body);
+        const response = await axios.post(
+            'https://jsonplaceholder.typicode.com/posts',
+            body
+        );
         console.log(response[0]);
         expect(response.data.id).toBeDefined();
         expect(response.status).toBe(201);
