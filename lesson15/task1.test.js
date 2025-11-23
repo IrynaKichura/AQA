@@ -9,7 +9,7 @@ describe('api test', () => {
         console.log(response[4]);
         expect(response[4].email).toBe("Hayden@althea.biz");
         } catch (error) {
-        console.error('Error fetching data:', error);
+        console.error('Error while fetching data:', error);
     }
     });
 });
